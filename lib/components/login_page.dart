@@ -39,7 +39,16 @@ class _LoginScreenState extends State<LoginPage> {
               child: Image.asset(
                 'assets/images/logo.jpg',
                 fit: BoxFit.contain,
-                width: 250,
+                width: 200,
+              ),
+            ),
+            const Text(
+              'HANDINet',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20,
+                fontFamily: 'Pacifico',
+                fontWeight: FontWeight.bold,
               ),
             ),
             Buildtextfield(
